@@ -24,6 +24,7 @@ body {
   text-align: center;
 }
 
+ 
 .quote {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 2.5rem; 
@@ -35,3 +36,58 @@ body {
   text-align: center;
   font-style: italic;
 }
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+  color: black;
+  border-radius: 9999px;
+  border: 1px solid blue;
+  }
+nav a:hover {
+  color: dimgray;
+ border-radius: 9999px;
+  transition: background-color .3s ease-in-out;
+}
+
+.active {
+  border-radius: 9999px;
+  border: 1px solid blue;
+}
+
+.active:hover{
+  border-color:darkgoldenrod;
+  border-radius: 9999px;
+    color: black;
+      background-color: white;
+}
+  nav {
+    text-align: center;
+    position: fixed;
+    word-spacing: 2rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 1rem;
+    color: black;
+  }
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-top: 1rem;
+  }
+  
+  .quote {
+    font-size: 1.5rem;
+  }
+  
+  
+  @media (min-width:1080px) {
+    .wrapper { 
+    padding-top: 6rem;
+    }
+  }
+  
+  
+  
+  
