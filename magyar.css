@@ -64,7 +64,8 @@ nav {
   text-align: center;
   margin: 1rem;
   font-size: 1remm;
-  
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 700;
   }
 
 nav a{
@@ -83,7 +84,8 @@ nav a{
 .active:hover{
   border-color:darkgoldenrod;
   color: black;
-  background-color: white;
+  background-color: white; 
+  transition: background-color .3s ease-in-out;
 }
 
 
